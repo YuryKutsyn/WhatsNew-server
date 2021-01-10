@@ -1,0 +1,32 @@
+{
+  "name": "postsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/YuryKutsyn/postapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/YuryKutsyn/postapp/issues"
+  },
+  "homepage": "https://gitlab.com/YuryKutsyn/postapp#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.1",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.4.0",
+    "graphql-tag": "^2.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
